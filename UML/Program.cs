@@ -6,7 +6,10 @@ namespace UML
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Store s = new Store();
+            s.start();
+
+            Console.WriteLine();
         }
     }
 }
